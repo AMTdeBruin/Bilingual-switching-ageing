@@ -6,4 +6,4 @@ document:
 
 document-docker: 
 	R -e "xfun::pkg_attach2('rmarkdown')"
-	R -e "rmarkdown::render('manuscript.Rmd')"
+	R -e "rmarkdown::render('manuscriptINSPIRE.Rmd')"
