@@ -9,5 +9,4 @@ rmarkdown \
 lme4 \
 lmerTest \
 bookdown \
-kableExtra \
 rstatix
