@@ -31,6 +31,7 @@ toinstall <- packagelist[which(!packagelist %in% (.packages()))]
 invisible(lapply(toinstall,library,character.only=TRUE))
 
 devtools::install_github("kupietz/kableExtra")
+library(kableExtra)
 
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
